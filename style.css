@@ -127,6 +127,36 @@ footer .container a {
   color: #fff;
 }
 
+@media screen and (max-width: 900px) {
+  .navbar ul {
+    display: none
+  }
+
+  .navbar .menu .shop {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  footer .container .footer-links .footer-link {
+    padding: 0px;
+  }
+}
+
+
 @media screen and (max-width: 400px) {
   .nav {
     height: 40px;
@@ -189,6 +219,7 @@ footer .container a {
 
   footer .container h3 {
     text-align: center;
+    margin-bottom: 15px;
   }
 
   footer .container .footer-links .footer-link {
