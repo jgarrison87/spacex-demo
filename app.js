@@ -1,9 +1,10 @@
-const menuBtn = document.querySelector('.menuBtn');
-const navList = document.querySelector('.burger-menu');
-const showcase = document.querySelector('.bg1');
-const nav = document.querySelector('.nav');
+const navSlide = () => {
+  const burger = document.querySelector('.menuBtn');
+  const navLinks = document.querySelector('.burger-menu');
 
-menuBtn.addEventListener('click', () => {
-  navList.classList.toggle('menu-active')
-  // showcase.classList.toggle('bg-active')
-});
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('burger-menu-active');
+  });
+} 
+
+navSlide();
